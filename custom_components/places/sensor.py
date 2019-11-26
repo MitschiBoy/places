@@ -603,7 +603,7 @@ class Places(Entity):
                 street = osm_decoded["address"]["road"]
             if "city" in osm_decoded["address"]:
                 city = osm_decoded["address"]["city"]
-	    elif "town" in osm_decoded["address"]:
+            elif "town" in osm_decoded["address"]:
                 city = osm_decoded["address"]["town"]
             if "city_district" in osm_decoded["address"]:
                 postal_town = osm_decoded["address"]["city_district"]

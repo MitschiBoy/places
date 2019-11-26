@@ -3,6 +3,6 @@
   "name": "Places",
   "documentation": "https://github.com/MitschiBoy/places",
   "dependencies": ["device_tracker"],
-  "codeowners": ["@tenly2000","@iantrich"],
+  "codeowners": ["@MitschiBoy","@tenly2000","@iantrich"],
   "requirements": []
 }
